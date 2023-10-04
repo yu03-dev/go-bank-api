@@ -1,6 +1,6 @@
 # go-bank-api
 
-最初のコミットは Anthony GG の動画の part5 を見終わった状態です。
+最初のコミットは Anthony GG の動画の part5 を見終わった状態です。あああ
 
 ## タスク
 
