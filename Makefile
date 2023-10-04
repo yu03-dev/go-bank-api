@@ -1,8 +1,14 @@
 build:
-	@go build -o bin/gobank
+	@docker compose build
 
-run: build
-	@./bin/gobank
+up:
+	@docker compose up
 
-test:
-	@go test -v ./...
+down:
+	@docker compose down
+
+run_web:
+	@docker compose run --rm --service-ports web bash
+
+run_db:
+	@docker compose run --rm db bash
